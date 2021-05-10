@@ -78,12 +78,22 @@ img {
 
 @media screen and (max-width:480px){
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /* COMMON */
 
 body{
   background-color: #f2f2cd;
   font-size: 75%;
   margin: 0;
+}
+
+.container{
+  padding: 10px 15px 5px;
 }
 
 .row{
@@ -93,16 +103,31 @@ body{
   margin-top: 0;
 }
 
+img {
+  height: 100px;
+}
+
+
+/* sezione lezioni */
+
 #lezioni .row>.left,
 #lezioni .row>.right {
   width: 100%;
   float: initial;
 }
 
+/* sezione steps */
 
-img {
-  height: 100px;
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: initial;
+  width: 100%;
+  margin-top: 10px;
+ 
 }
+
+
 
 /* sezione why */
 
