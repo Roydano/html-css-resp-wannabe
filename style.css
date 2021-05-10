@@ -13,10 +13,11 @@
 
 body{
   background-color: #f2f2cd;
+  font-size: 75%;
 }
 
 .container{
-  padding: 15px;
+  padding: 15px 15px 5px;
 }
 
 .row{
@@ -37,9 +38,6 @@ img {
   height: 100px;
 }
 
-.clear {
-  clear: both;
-}
 
 
 
@@ -48,7 +46,18 @@ img {
 
 /* sezione lezioni */
 
+h1{
+  margin-bottom: 10px;
+}
 
+
+.row .left{
+  margin-bottom: 10px;
+}
+
+.row .right{
+  margin-bottom: 0px;
+}
 
 
 
@@ -69,6 +78,11 @@ img {
 
 body{
   background-color: white;
+  font-size: 100%;
+}
+
+.container{
+  padding: 0;
 }
 
 .row {
@@ -139,6 +153,7 @@ img {
 }
 
 }
+
 
 
 
