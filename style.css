@@ -1,3 +1,76 @@
+/* formattazione pagina */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* versione mobile */
+
+/* COMMON */
+
+body{
+  background-color: #f2f2cd;
+}
+
+.container{
+  padding: 15px;
+}
+
+.row{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+img {
+  height: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+/* body */
+
+/* sezione lezioni */
+
+
+
+
+
+/* sezione steps */
+
+#steps{
+  background-color: white;
+}
+
+
+
+
+/* versione desktop */
+
+
+
+@media screen and (min-width:420px){
+
+body{
+  background-color: white;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -54,20 +127,21 @@
 }
 
 /* COMMON */
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
-.container.grey {
-  background-color: #f9f9f9;
-}
 
 img {
   height: 200px;
 }
 
-.clear {
-  clear: both;
+
+.container.grey {
+  background-color: #f9f9f9;
 }
+
+}
+
+
+
+
+
+
