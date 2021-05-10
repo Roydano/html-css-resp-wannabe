@@ -1,109 +1,3 @@
-/* formattazione pagina */
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-/* versione mobile */
-
-/* COMMON */
-
-body{
-  background-color: #f2f2cd;
-  font-size: 75%;
-}
-
-.container{
-  padding: 10px 15px 5px;
-}
-
-.row{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-img {
-  height: 100px;
-}
-
-
-
-
-
-/* body */
-
-/* sezione lezioni */
-
-h1{
-  margin-bottom: 10px;
-}
-
-
-.row .left{
-  margin-bottom: 10px;
-}
-
-.row .right{
-  margin-bottom: 0px;
-}
-
-
-
-/* sezione steps */
-
-#steps{
-  background-color: white;
-}
-
-#steps .right{
-  margin-top: 10px;
-}
-
-
-/* sezione why */
-
-
-
-#why .row img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-#why .second,
-#why .third{
-  margin-top: 15px;
-}
-
-
-
-/* versione desktop */
-
-
-
-@media screen and (min-width:420px){
-
-body{
-  background-color: white;
-  font-size: 100%;
-}
-
-.container{
-  padding: 0;
-}
-
 .row {
   width: 992px;
   margin-left: auto;
@@ -160,17 +54,22 @@ body{
 }
 
 /* COMMON */
-
-
-img {
-  height: 200px;
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
 }
-
 
 .container.grey {
   background-color: #f9f9f9;
 }
 
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
 }
 
 
